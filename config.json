@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "image": "./src/aigame.png",
+      "name": "AI Game Pipeline",
+      "description": "尝试使用AI替代游戏开发流程中的一些环节，比如美术资源的生成、关卡设计、文案策划等",
+      "link": "./aigame.md",
+      "year": "2026",
+      "tags": [
+        "2026.4~",
+        "Updating"
+      ]
+    },
+    {
+      "image": "./src/image-20260313150553077.png",
+      "name": "原神自动代肝",
+      "description": "使用openclaw+bettergi实现原神自动代肝",
+      "link": "./openclaw.md",
+      "year": "2026",
+      "tags": [
+        "2026.3",
+        "DONE"
+      ]
+    },
+    {
+      "image": "./src/nas.png",
+      "name": "DIY NAS",
+      "description": "古法炮制一个个人存储NAS",
+      "link": "./diynas.md",
+      "year": "2026",
+      "tags": [
+        "2026.2",
+        "DONE"
+      ]
+    },
+    {
+      "image": "./src/ar.gif",
+      "name": "AR SLAM",
+      "description": "硕士期间周末和假期做的，基于orbslam3和ace模型的AR系统，实现空间重定位和实时定位功能",
+      "link": "./ar.md",
+      "year": "2025",
+      "tags": [
+        "2025.6",
+        "DONE"
+      ]
+    },
+    {
+      "image": "./src/chatllm.gif",
+      "name": "CHAT LLM",
+      "description": "使用纳西妲语料微调qwen2.5大模型，使用MNN框架部署到安卓手机上",
+      "link": "./chatllm.md",
+      "year": "2025",
+      "tags": [
+        "2025.11",
+        "DONE"
+      ]
+    },
+    {
+      "image": "./src/3dqt.png",
+      "name": "PointCloud Process",
+      "description": "本科毕设的一部分，用QT做的0代码点云处理软件",
+      "link": "./qt.md",
+      "year": "2023",
+      "tags": [
+        "2023.3",
+        "DONE"
+      ]
+    }
+  ]
+}
