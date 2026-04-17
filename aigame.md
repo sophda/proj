@@ -62,6 +62,10 @@ gemini老师还是太权威了~ 从风堇的pv里随便截取一张图，然后�
 > 1.使用cosyvoice做声音克隆和增强
 >
 > 2.训练一个matcha-tts做为轻量化的tts模型，好处是该模型有开源c++的推理框架。
+>
+> ---
+>
+> 现在好像新出了个LuxTTS，说是显存占用极低？？！！[ysharma3501/LuxTTS: A high-quality rapid TTS voice cloning model that reaches speeds of 150x realtime.](https://github.com/ysharma3501/LuxTTS)
 
 
 
