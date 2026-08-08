@@ -1,6 +1,19 @@
 {
   "projects": [
     {
+      "image": "proj/assets/sandorobot_img/17158817823605062.png",
+      "name": "Sando Robot",
+      "description": "谁不想拥有一只可爱美丽傲娇的桑多涅作为女鹅呢",
+      "link": "proj/sandorobot.md",
+      "year": "2026",
+      "tags": [
+        "2026.8~",
+        "Updating"
+      ]
+    },
+
+
+    {
       "image": "proj/src/aigame.png",
       "name": "AI Game Pipeline",
       "description": "尝试使用AI替代游戏开发流程中的一些环节，比如美术资源的生成、关卡设计、文案策划等",

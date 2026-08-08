@@ -2,7 +2,7 @@
 
 古法炮制一个NAS，可以保存图片、电影，作为Zotero的webDAV备份盘，手机端可以查看等等
 
-![nas](src/nas.png)
+![nas](assets/diynas_img/nas.png)
 
 ## 硬件清单
 
@@ -14,13 +14,13 @@ NAS 的小主机是从咸鱼上淘的工控小主机，应该是个ops小主机�
 
 依旧伊拉克战损版...
 
-![Screenshot_20260227_015002_com_taobao_idlefish_FishFlutterBoostTransparencyActivit](src/Screenshot_20260227_015002_com_taobao_idlefish_FishFlutterBoostTransparencyActivit.png)
+![Screenshot_20260227_015002_com_taobao_idlefish_FishFlutterBoostTransparencyActivit](assets/diynas_img/Screenshot_20260227_015002_com_taobao_idlefish_FishFlutterBoostTransparencyActivit.png)
 
 拆开这个小主机，发现只有两个SATA接口，一个口还是接上了系统盘，是不是该庆幸只剩下一个SATA口接机械硬盘呢？
 
 蓝色的SATA线是延长到机械硬盘的线。
 
-![nasin](src/nasin.png)
+![nasin](assets/diynas_img/nasin.png)
 
 除了硬盘、小主机，还需要电源和机械硬盘的散热，电源选用的是服务器电源，475W嘎嘎猛，可以引出12V的直流电，散热随便找的5V机箱风扇，给硬盘散热戳戳有余。至此，硬件准备完毕~
 
@@ -38,11 +38,11 @@ NAS 的小主机是从咸鱼上淘的工控小主机，应该是个ops小主机�
 
 安装成功后，可以看到如下界面：
 
-![image-20260227181133074](src/image-20260227181133074.png)
+![image-20260227181133074](assets/diynas_img/image-20260227181133074.png)
 
 配置一下远程桌面，就可以在远程主机上通过RDP控制这台小主机了：
 
-![image-20260227182012485](src/image-20260227182012485.png)
+![image-20260227182012485](assets/diynas_img/image-20260227182012485.png)
 
 
 
@@ -59,7 +59,7 @@ sudo systemctl enable --now docker
 sudo docker run hello-world
 ```
 
-![image-20260227182400334](src/image-20260227182400334.png)
+![image-20260227182400334](assets/diynas_img/image-20260227182400334.png)
 
 
 
@@ -162,7 +162,7 @@ RUN docker-php-ext-enable smbclient
 fdisk -l
 ```
 
-![image-20260227183935014](src/image-20260227183935014.png)
+![image-20260227183935014](assets/diynas_img/image-20260227183935014.png)
 
 根据大小可以判断`/dev/sdb5`是机械硬盘。
 
@@ -174,7 +174,7 @@ sudo mount /dev/sdb5 /home/sophda/d
 
 然后就可以 在`/home/sophda/d`目录下看到硬盘的内容了（挂载后的d文件夹右上方会有个硬盘的标）：
 
-![image-20260227184228978](src/image-20260227184228978.png)
+![image-20260227184228978](assets/diynas_img/image-20260227184228978.png)
 
 
 
@@ -188,19 +188,19 @@ docker compose up -d
 
 > 这个d表示后台运行，不占用当前的shell
 
-![image-20260227184420607](src/image-20260227184420607.png)
+![image-20260227184420607](assets/diynas_img/image-20260227184420607.png)
 
 ---
 
 简单注册个用户，然后打开浏览器就可以享用了~
 
-![image-20260227184646813](src/image-20260227184646813.png)
+![image-20260227184646813](assets/diynas_img/image-20260227184646813.png)
 
 ---
 
 打开文件设置->webDAV，将地址填入zotero等软件，还可以多端同步备份
 
-![image-20260227184751931](src/image-20260227184751931.png)
+![image-20260227184751931](assets/diynas_img/image-20260227184751931.png)
 
 
 

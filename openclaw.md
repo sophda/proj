@@ -58,7 +58,7 @@ https://docs.openclaw.ai/zh-CN/channels/feishu
 
 在如下路径配置skill：
 
-![image-20260313163603016](src/image-20260313163603016.png)
+![image-20260313163603016](assets/openclaw_img/image-20260313163603016.png)
 
 ```
 ---

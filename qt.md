@@ -1,6 +1,6 @@
 # PointCloud process software
 
-![image-20250824181502604](src/image-20250824181502604.png)
+![image-20250824181502604](assets/qt_img/image-20250824181502604.png)
 
 ## basic dependencies needed
 1.qt5(just the pure library rather than the whole package)
